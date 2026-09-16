@@ -17,13 +17,19 @@ public class exercicio12 {
         System.out.println("Valor solicitado");
         int valorsolicitado = sc.nextInt();
 
-        if (saldo > valorsolicitado) {
-            if (valorsolicitado > limite) {
+        if (saldo > valorsolicitado)
+        {
+            if (valorsolicitado > limite)
+            {
                 System.out.println("O valor ultrapassa o limite diario!");
-            } else {
+            }
+            else
+            {
                 System.out.println("Saldo realizado com sucesso!!");
             }
-        } else {
+        }
+        else
+        {
             System.out.println("Saldo insuficiente");
         }
     }
