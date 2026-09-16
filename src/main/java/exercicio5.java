@@ -12,10 +12,13 @@ public class exercicio5 {
         int ano = sc.nextInt();
 
 
-        if (ano % 4 == 0 && ano % 100 != 0) {
+        if (ano % 4 == 0 && ano % 100 != 0)
+        {
             System.out.println("o ano é bissexto");
         }
-        else if (ano % 400 == 0) {
+        else if (ano % 400 == 0)
+        {
+
         }
         else
         {
