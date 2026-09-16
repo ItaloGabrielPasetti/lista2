@@ -11,17 +11,19 @@ public class exercicio6 {
         System.out.println("Qual o valor da compra?");
         double compra = sc.nextDouble();
 
+        double valorFrete;
+
         if (compra <= 199.00)
         {
-            double CompraFinal = sc.nextDouble();
-            double CompraFinal = compra + 24.90;
-
+            valorFrete = 24.90;
         }
         else
         {
             System.out.println("FRETE GRATIS!!!");
+            valorFrete = 0;
         }
 
-        System.out.println("O valor da sua compra é " + CompraFinal);
+        double  VN = compra + valorFrete;
+        System.out.println("O valor da sua compra é " + VN);
     }
 }
